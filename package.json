@@ -1,5 +1,5 @@
 {
-  "name": "@loomhq/electron-click-through-workaround",
+  "name": "@getdebrief/electron-click-through-workaround",
   "description": "mac work around for transparent click through on electron v7 and up",
   "version": "0.0.1",
   "license": "UNLICENSED",
@@ -10,7 +10,7 @@
     "build": "node-gyp build",
     "rebuild": "node-gyp clean; node-gyp configure; node-gyp build"
   },
-  "repository": "https://github.com/loomhq/ElectronMacOSClickThrough",
+  "repository": "https://github.com/getdebrief/ElectronMacOSClickThrough",
   "dependencies": {
     "bindings": "~1.2.1",
     "node-addon-api": "^3.0.0"
