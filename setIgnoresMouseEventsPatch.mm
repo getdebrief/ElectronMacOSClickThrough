@@ -22,7 +22,7 @@ static setIgnoresMouseEventsType oldSetIgnoresMouseEvents;
 // setIgnoreMouseEvents into a no-op using a monkey patch.
 static void setIgnoresMouseEvents(id self, SEL _cmd, BOOL ignores) {
   CGRect frame = [self frame];
-  NSLog(@"setIgnoresMouseEvents: %@ - %@ to %i", self, NSStringFromRect(frame), ignores);
+  // NSLog(@"setIgnoresMouseEvents: %@ - %@ to %i", self, NSStringFromRect(frame), ignores);
 
   // TODO: don't call on all windows.
   if (0) oldSetIgnoresMouseEvents(self, _cmd, ignores);
